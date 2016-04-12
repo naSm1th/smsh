@@ -9,10 +9,10 @@ CC=gcc
 CFLAGS=-c -Wall
 
 smsh: smsh.o 
-	$(CC) -o smsh smsh.o
+	$(CC) -o bin/smsh smsh.o
 
 smsh.o: smsh.h smsh.c
 	$(CC) $(CFLAGS) smsh.c
 
 clean: 
-	rm *.o smsh
+	rm *.o bin/*

@@ -30,3 +30,6 @@
 
 # Debug files
 *.dSYM/
+
+# Our binary files
+bin/*
